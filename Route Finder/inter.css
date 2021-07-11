@@ -1,0 +1,53 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    
+    background: rgb(107,186,222);
+    background: -moz-linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    background: linear-gradient(90deg, rgba(107,186,222,1) 0%, rgba(232,156,205,1) 100%);
+    
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.test{
+  text-color: green;
+}
+.maker{
+  
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 50vh;
+    width: 50vh;
+}
+
+.heading{
+  text-align: center;
+}
+
+.mine{
+  margin-left: 400px;
+  margin-right: 400px;
+}
