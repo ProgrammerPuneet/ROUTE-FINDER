@@ -1,6 +1,8 @@
 # ROUTE-FINDER
 TSP/VEHICLE ROUTING/OSRM/LEAFLET/OPTIMIZATION ALGORITHMS/GENETIC ALGORITHM
 
+1. TSP using Genetic Algorithm is HTML webpage to execute.
+2. Rest complete web version can be visited at Netlify Link at the Last.
 
 Solved Single Pick-up and Delivery Problem using Genetic Algorithm Over the OpenStreet Map.
 
