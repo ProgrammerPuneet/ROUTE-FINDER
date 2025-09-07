@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  
+  <link rel="stylesheet" href="index.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+  
+  
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css" />
+    <title>Route Finder</title>
+    
+   
+
+</head>
+<body>
+
+  <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="about.html">About</a>
+  </div>
+
+<main>
+<div id="map"></div>
+<div style="padding-left:20px;">
+      
+      <div class="input-group">
+
+        <input type="text" class="form-control" size="50" id="candidate" required placeholder="Enter Address">
+        <div class="input-group-append">
+          <button onclick="addItem()" class="btn btn-add" type="button">Add Item</button>
+          <button onclick="removeItem()" class="btn btn-remove" type="button">Remove Item</button>
+        </div>
+      </div>
+
+      <ul id="dynamic-list">
+      </ul>
+    
+    <div>   
+      <button onclick="send()" class="btn btn-add" type="button" id="tor">TSP</button>
+      <button onclick="route()" class="btn btn-add" type="button" id="tom">Route</button>
+    </div>
+</div>
+</main>  
+<script>
+
+  </script>
+ 
+      <script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>  
+      <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
